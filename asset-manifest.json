@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/torontodata/static/css/main.7a9c5c92.chunk.css",
+    "main.js": "/torontodata/static/js/main.ad074046.chunk.js",
+    "main.js.map": "/torontodata/static/js/main.ad074046.chunk.js.map",
+    "runtime-main.js": "/torontodata/static/js/runtime-main.55f1c3be.js",
+    "runtime-main.js.map": "/torontodata/static/js/runtime-main.55f1c3be.js.map",
+    "static/js/2.5cb4fef0.chunk.js": "/torontodata/static/js/2.5cb4fef0.chunk.js",
+    "static/js/2.5cb4fef0.chunk.js.map": "/torontodata/static/js/2.5cb4fef0.chunk.js.map",
+    "index.html": "/torontodata/index.html",
+    "precache-manifest.ce08002575a0a73e6b56bf725fd365c3.js": "/torontodata/precache-manifest.ce08002575a0a73e6b56bf725fd365c3.js",
+    "service-worker.js": "/torontodata/service-worker.js",
+    "static/css/main.7a9c5c92.chunk.css.map": "/torontodata/static/css/main.7a9c5c92.chunk.css.map",
+    "static/js/2.5cb4fef0.chunk.js.LICENSE.txt": "/torontodata/static/js/2.5cb4fef0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55f1c3be.js",
+    "static/js/2.5cb4fef0.chunk.js",
+    "static/css/main.7a9c5c92.chunk.css",
+    "static/js/main.ad074046.chunk.js"
+  ]
+}
