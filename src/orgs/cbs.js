@@ -1,19 +1,38 @@
 import React, { Component } from 'react';
 
-var count = 0;
-
 class Cbs extends Component { 
 
-	handleClick = (count) => {
-		count = count + 1;
-		console.log(count);
+	constructor() {
+		super();
+		this.state= {
+			count:0
+		}
 	}
 
-	render(test) {
+	incrementCount = () => {
+		this.setState({
+			count:this.state.count+1
+		})
+	}
+
+	decrementCount = () => {
+		this.setState({
+			count:this.state.count-1
+		})
+	}
+
+	render(test) 
+	{
+		let { count } = this.state;
 		return ( 
-			<div> 
-				<p> Canadian Blood Services section </p>
-                <button onClick={() => this.handleClick(count)}>Click Me</button>;
+			<div>
+				<div className="count">
+					<h3>Count:</h3>
+					<h1>{count}</h1>
+				</div>
+				<h2>Count: { count } </h2>
+				<button onClick = { () => this.incrementCount() }> </button>
+				<button onClick = { () => this.decrementCount() }> </button>
 			</div>
 		)
 	}
