@@ -10,9 +10,8 @@ import Footer from './components/footer';
 import About from './components/about';
 
 
-
 function App() {
-	ReactGA.initialize('UA-175166375-1');
+	ReactGA.initialize('UA-175166375-2');
 	return (
 		<BrowserRouter>
 			< Header />
