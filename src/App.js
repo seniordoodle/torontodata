@@ -13,10 +13,10 @@ import { useEffect } from 'react';
 
 function App() {
 	useEffect(() => {
-		ReactGA.initialize('UA-175166375-2');
+		ReactGA.initialize('UA-175166375-1')
 
 		// To report page view
-		ReactGA.pageview('/')
+		ReactGA.pageview('/app')
 	}, [])
 
 	return (
