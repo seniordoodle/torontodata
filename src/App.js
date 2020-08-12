@@ -8,10 +8,17 @@ import Cbs from './orgs/cbs';
 import Header from './components/header';
 import Footer from './components/footer';
 import About from './components/about';
+import { useEffect } from 'react';
 
 
 function App() {
-	ReactGA.initialize('UA-175166375-2');
+	useEffect(() => {
+		ReactGA.initialize('UA-175166375-2');
+
+		// To report page view
+		ReactGA.pageview('/')
+	}, [])
+
 	return (
 		<BrowserRouter>
 			< Header />
