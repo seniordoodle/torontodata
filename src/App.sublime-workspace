@@ -8,12 +8,12 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Michael/Downloads/EventResults.txt",
+			"contents": "At some point during this calendar year I donated one of my kidneys anonymously to someone I have never met before. My profile is ambiguous for safety reasons. We aren't allowed to know each other's identities because of safety reasons. The only thing I know about my recipient is that they took to the kidney well.\n\nThis was made possible through the Canadian Blood Services and their Kidney Pair Donation (KPD) program. Right now, there are over 3000 Canadians waiting patiently for a deceased kidney to come their way, but less than 1000 kidneys come from here and they often more degraded than that of a living donor's. In 2018, Canada did 1700 kidney transplants\n\nThe entire process takes on average 5 months between the interviews, health tests, and waiting. \n\nWe're waiting in line for a rollercoaster at the fair. We got there early and as we wait, the line get longer",
 			"settings":
 			{
-				"buffer_size": 564491,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 876,
+				"line_ending": "Windows",
+				"name": "At some point during this calendar year I donated"
 			}
 		}
 	],
@@ -49,6 +49,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Michael/Downloads/EventResults.txt",
 		"/C/Users/Michael/Desktop/Melee.txt"
 	],
 	"find":
@@ -111,27 +112,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Michael/Downloads/EventResults.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 564491,
+						"buffer_size": 876,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								138747,
-								138747
+								876,
+								876
 							]
 						],
 						"settings":
 						{
+							"auto_name": "At some point during this calendar year I donated",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 18854.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
