@@ -27,10 +27,11 @@ function App() {
 			<div className='edgepadding'>
 			
 				<Switch>
+					<Route path='/home' component={ Home } />
 					<Route path='/rbc' component={ Rbc } />
 					<Route path='/about' component={ About } />
 					<Route path='/cbs' component={ Cbs } />
-					<Route exact path='/home' component={ Home } />
+
 				</Switch>
 				< Footer />
 			</div>
