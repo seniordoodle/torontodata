@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
-import kidney from '../Infograph/InfoKidney.png';
 
-class Rbc extends Component { 
+class Home extends Component { 
 	render() {
 		return ( 
 			<div> 
-				<img className='MainImg' alt="" src={kidney} />
+				<img className='MainImg' alt="" src={"https://raw.githubusercontent.com/seniordoodle/torontodata/master/src/Infograph/InfoKidney.png"} />
 			</div>
 		);
 	}
 }
 
-Rbc.defaultProps = {
-	test: 4
-}
 
-export default Rbc;
+export default Home;
 
 

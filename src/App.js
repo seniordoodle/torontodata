@@ -30,7 +30,7 @@ function App() {
 					<Route path='/rbc' component={ Rbc } />
 					<Route path='/about' component={ About } />
 					<Route path='/cbs' component={ Cbs } />
-					<Route exact path='/' component={ Home } />
+					<Route exact path='/home' component={ Home } />
 				</Switch>
 				< Footer />
 			</div>
