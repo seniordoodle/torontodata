@@ -14,6 +14,15 @@ body {
 	margin-right: 7.5%;
 }
 
+.MainImg {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
 /* HEADER */
 .header_01 {
 	background-color: #385fc1;
@@ -83,11 +92,6 @@ code {
 	.abt-tilemain {
 		display: inline;
 	}
-}
-
-
-.fronttile-01 {
-	
 }
 
 p {
