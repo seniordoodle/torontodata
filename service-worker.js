@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/torontodata/precache-manifest.d3d80e0d558cb27bdc6a8a15aef3390a.js"
+  "/torontodata/precache-manifest.21a3c2602e6bd9f9270c2a51f2f3a6c3.js"
 );
 
 self.addEventListener('message', (event) => {
