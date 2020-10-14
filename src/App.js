@@ -25,7 +25,7 @@ function App() {
 		<BrowserRouter>
 			< Header />
 			<div className='edgepadding'>
-			
+				<Home/>
 				<Switch>
 					<Route path='/home' component={ Home } />
 					<Route path='/rbc' component={ Rbc } />

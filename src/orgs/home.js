@@ -5,7 +5,7 @@ class Home extends Component {
 	render() {
 		return ( 
 			<div> 
-                <p>  HOME section </p>
+				<p></p>
 				<img className='infoImg' alt='' src={kidneypic} ></img>
 			</div>
 		);
